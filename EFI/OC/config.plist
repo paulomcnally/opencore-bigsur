@@ -241,24 +241,6 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/AMDRyzenCPUPowerManagement</string>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>AMDRyzenCPUPowerManagement.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
 				<string>Contents/MacOS/AppleALC</string>
 				<key>Arch</key>
 				<string>Any</string>
@@ -300,24 +282,6 @@
 				<string>Any</string>
 				<key>BundlePath</key>
 				<string>RealtekRTL8111.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/SMCAMDProcessor</string>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
-				<string>SMCAMDProcessor.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -971,11 +935,41 @@
 				<key>Mask</key>
 				<data>/////wAAAP///wA=</data>
 				<key>MaxKernel</key>
-				<string>20.99.99</string>
+				<string>20.3.0</string>
 				<key>MinKernel</key>
 				<string>17.0.0</string>
 				<key>Replace</key>
 				<data>u7xP6njpXQAAAJA=</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
+				<key>Base</key>
+				<string></string>
+				<key>Comment</key>
+				<string>DhinakG - cpuid_set_cpufamily - force CPUFAMILY_INTEL_PENRYN - 11.3b1</string>
+				<key>Count</key>
+				<integer>1</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>MdIAAIA9AAAAAAZ1AA==</data>
+				<key>Identifier</key>
+				<string>kernel</string>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data>//8AAP//AAAA////AA==</data>
+				<key>MaxKernel</key>
+				<string>20.99.99</string>
+				<key>MinKernel</key>
+				<string>20.4.0</string>
+				<key>Replace</key>
+				<data>swG6vE/qeOldAAAAkA==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -1616,8 +1610,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleAttributes</key>
@@ -1631,7 +1624,7 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>External</string>
+			<string>Builtin</string>
 			<key>PollAppleHotKeys</key>
 			<false/>
 			<key>ShowPicker</key>
@@ -1658,7 +1651,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>0</integer>
+			<integer>67</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1713,8 +1706,7 @@
 			<string>Optional</string>
 		</dict>
 		<key>Tools</key>
-		<array>
-		</array>
+		<array/>
 	</dict>
 	<key>NVRAM</key>
 	<dict>
@@ -1810,7 +1802,7 @@
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>MLB</key>
-			<string>M0000000000000001</string>
+			<string>C02936200GUJG36CB</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
 			<key>ROM</key>
@@ -1818,11 +1810,11 @@
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>iMac19,1</string>
+			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>W00000000001</string>
+			<string>C02ZC1Z2HX87</string>
 			<key>SystemUUID</key>
-			<string>00000000-0000-0000-0000-000000000000</string>
+			<string>06890353-8B6B-4DF6-9788-17A77F40F146</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1872,7 +1864,6 @@
 		<key>Drivers</key>
 		<array>
 			<string>HfsPlus.efi</string>
-			<string>OpenCanopy.efi</string>
 			<string>OpenRuntime.efi</string>
 		</array>
 		<key>Input</key>
